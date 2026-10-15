@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Café Gourmet - Landing Page</title>
+
+</head>
+<body>
+
+
+    <header>
+
+
+        <nav class="navbar">
+            <ul>
+                    <li><a href="#home" class="menu-link">Home</a></li>
+                    <li><a href="#about" class="menu-link">About</a></li>
+                    <li><a href="#menu" class="menu-link">Menu</a></li>
+                    <li><a href="#contato" class="menu-link">Contato</a></li>
+            </ul>
+            
+        </nav>
+    </header>    
+
+
+        <main id="home" class="secao-home">
+            <div class="home-conteudo">
+                <h1 class="titulo">O aroma do café fresco torrado artesanalmente</h1>
+                <p class="paragrafo">Grãos selecionados na fazenda, torrados em pequenos lotes e moídos na hora para criar a xícara perfeita para o seu dia.</p>
+
+                <div class="home-botoes">
+
+                  <a href="#menu" class="botao-principal">Ver Menu Digital</a>
+                  <a href="#contato" class="botao-secundario">Visite Nossa Loja</a>
+                </div>
+            </div>
+        </main>
+
+
+        <section id="about" class="secao-about">
+            <div class="about-conteudo">
+                <h2>Nossa Paixão pelo Café Perfeito</h2>
+                <p>Fundada em 2024 por dois baristas apaixonados, a nossa cafeteria nasceu com um propósito simples: transformar o hábito de tomar café em uma experiência sensorial inesquecível.</p>
+                <p>Trabalhamos exclusivamente com grãos 100% Arábica de cultivo sustentável, comprados diretamente de pequenos produtores brasileiros. Cada lote passa por um processo rigoroso de torrefação artesanal para destacar as notas naturais de chocolate, caramelo e frutas vermelhas.</p>
+
+                <ul class="about-diferencial">
+                    <li>🌱 Grãos Orgânicos e Sustentáveis</li>
+                    <li>🔥 Torrefação Própria Semanal</li>
+                    <li>☕ Métodos de Extração Exclusivos</li>
+                </ul>
+            </div>
+
+            <div class="about-imagem">
+                <img src="./components/images/cafe-feito.jpg" alt="barista fazendo café">
+            </div>        
+        </section>
+
+
+        <section id="menu" class="secao-menu">
+
+            <div class="menu-container">
+                <h2>Nosso Cardápio Artesanal</h2>
+                <p class="menu-subtitulo">Escolha entre nossas torras frescas e acompanhamentos preparados diariamente.</p>
+            </div>
+
+            <!--bloco geral das categorias-->
+            <div class="menu-categoria">
+
+                <!--categoria 1: cafés-->
+                <div class="categoria-bloco">
+                    <h3>☕ Cafés Especiais</h3>
+                    <div class="produtos-grid">
+
+                        <div class="produto-item">
+                            <div class="produto-topo">
+                                <span class="produto-nome">Espresso Tradicional</span>
+                                <span class="produto-preco">R$ 8,00</span>
+                            </div>
+                            <p class="produto-descricao">Extraído com precisão, corpo denso e notas de chocolate amargo.</p>
+                        </div>
+
+                        <div class="produto-item">
+                            <div class="produto-topo">
+                                <span class="produto-nome">Cappuccino Italiano</span>
+                                <span class="produto-preco">R$ 12,00</span>
+                            </div>
+                            <p class="produto-descricao">Espresso duplo com leite vaporizado e uma crema sedosa e persistente.</p>
+                        </div>
+
+                        <div class="produto-item">
+                            <div class="produto-topo">
+                                <span class="produto-nome">Cold Brew Filtrado</span>
+                                <span class="produto-preco">R$ 14,00</span>
+                            </div>
+                            <p class="produto-descricao">Café extraído a frio por 18 horas, leve, refrescante e naturalmente doce.</p>
+                        </div>
+
+                    </div>
+                </div> <!--Fim categoria 1-->
+
+
+                <!--Categoria 2: acompanhamentos-->
+                <div class="categoria-bloco">
+                    <h3>🥐 Acompanhamentos</h3>
+                    <div class="produtos-grid">
+
+                        <div class="produto-item">
+                            <div class="produto-topo">
+                                <span class="produto-nome">Pão de Queijo Mineiro</span>
+                                <span class="produto-preco">R$ 7,00</span>
+                            </div>
+                            <p class="produto-descricao">Com queijo canastra meia cura, crocante por fora e macio por dentro.</p>
+                        </div>
+
+                        <div class="produto-item">
+                            <div class="produto-topo">
+                                <span class="produto-nome">Croissant de Manteiga</span>
+                                <span class="produto-preco">R$ 11,00</span>
+                            </div>
+                            <p class="produto-descricao">Folhado francês legítimo, dourado e incrivelmente leve.</p>
+                        </div>
+
+                        <div class="produto-item">
+                            <div class="produto-topo">
+                                <span class="produto-nome">Cookie de Gotas Belgas</span>
+                                <span class="produto-preco">R$ 9,50</span>
+                            </div>
+                            <p class="produto-descricao">Massa amanteigada com pedaços de chocolate meio amargo, servido morno.</p>
+                        </div>
+
+
+                    </div>
+                </div> <!--Fim menu categoria 2-->
+
+            </div><!--FIm menu categorias-->
+
+        </section>
+
+    
+
+    <section id="contato" class="secao-contato">
+
+        <div class="contato-container">
+
+            <!--Bloco esquerdo: textos e informações uteis-->
+            <div class="contato-info">
+                <h2>Venha nos Visitar</h2>
+                <p class="contato-descricao">Estamos abertos todos os dias para te servir o melhor café artesanal da cidade. Venha conhecer nosso espaço ou envie uma mensagem!</p>
+
+                <div class="info-detalhes">
+                    <p><strong>📍 Endereço:</strong> Rua dos Baristas, 404 — Bairro Alto, São Paulo - SP</p>
+                    <p><strong>🕒 Horários:</strong> Seg a Sáb: 08h às 20h | Dom: 09h às 16h</p>
+                    <p><Strong>📸 Redes Sociais:</Strong> @cafe.artesanal</p>
+                </div>
+            </div>
+
+            <!--Bloco direito: o formulario de contato-->
+            <div class="contato-formulario">
+                <form action="#">
+                    <div class="grupo-campo">
+                        <label for="nome">Nome Completo</label>
+                        <input type="text" id="nome" placeholder="Digite seu nome completo" required>
+                    </div>
+
+                    <div class="grupo-campo">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" placeholder="seu@email.com" required>
+                    </div>
+
+                    <div class="grupo-campo">
+                        <label for="assunto">Assunto</label>
+                        <select id="assunto" required>
+                            <option value="" disabled selected>Selecione uma opção</option>
+                            <option value="elogio">Elogio ou Sugestão</option>
+                            <option value="reserva">Eventos e reservas</option>
+                            <option value="trabalho">Trabalhe Conosco</option>
+                        </select>
+                    </div>
+
+                    <div class="grupo-campo">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" rows="5" placeholder="Como podemos te ajudar?" required></textarea>
+                    </div>
+
+                    <button type="submit" class="botao-formulario">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    
+</body>
+</html>
